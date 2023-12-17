@@ -9,7 +9,7 @@ function App() {
         <ambientLight />
         <directionalLight />
         <mesh>
-          <boxGeometry />
+          <boxGeometry args={[4, 4, 4]}/>
           <meshStandardMaterial />
         </mesh>
       </Canvas>
